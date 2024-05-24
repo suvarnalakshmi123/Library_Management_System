@@ -24,8 +24,8 @@ class BookDTO(BaseModel):
     ISBN: int
     quantity: int 
     inventory: int
-    borrowed_books: str
-    return_books: str
+    borrowed_books: int
+    return_books: int
     category: str
     renew_a_book: bool
     fine_amount: float
